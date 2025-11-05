@@ -26,7 +26,7 @@ namespace Calculadora
         public double Dividir()
         {
             Resultado = Numero1 / Numero2;
-             return  Resultado;
+            return  Resultado;
         }
     }
 }
