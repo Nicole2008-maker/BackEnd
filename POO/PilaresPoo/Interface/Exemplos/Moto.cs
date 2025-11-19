@@ -1,12 +1,13 @@
 namespace Exemplos
 {
-    public class Carro : IMotor
-    {   public string Cor;
+    public class Moto : IMotor
+ 
+ {   public string Cor;
         public string Marca;
         public string Modelo;
         public int Ano;
 
-        public Carro(string c, string m, string md, int a)
+        public Moto(string c, string m, string md, int a)
         {
             Cor = c;
             Marca = m;
