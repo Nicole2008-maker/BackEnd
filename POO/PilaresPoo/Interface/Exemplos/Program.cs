@@ -9,3 +9,6 @@ Nissan.ExibirInfo();
 Moto hornet = new Moto("Amarela", "Honda", "Hornet Carburada", 2007);
 
 hornet.ExibirInfo();
+
+ControleRemoto controleTv = new ControleRemoto();
+controleTv.AumentarVolume();
