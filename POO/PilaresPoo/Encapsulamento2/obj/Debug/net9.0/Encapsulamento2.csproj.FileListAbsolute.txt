@@ -1,0 +1,15 @@
+C:\Users\55473639879\Desktop\BackEndMoura\POO\PilaresPoo\Encapsulamento2\bin\Debug\net9.0\Encapsulamento2.exe
+C:\Users\55473639879\Desktop\BackEndMoura\POO\PilaresPoo\Encapsulamento2\bin\Debug\net9.0\Encapsulamento2.deps.json
+C:\Users\55473639879\Desktop\BackEndMoura\POO\PilaresPoo\Encapsulamento2\bin\Debug\net9.0\Encapsulamento2.runtimeconfig.json
+C:\Users\55473639879\Desktop\BackEndMoura\POO\PilaresPoo\Encapsulamento2\bin\Debug\net9.0\Encapsulamento2.dll
+C:\Users\55473639879\Desktop\BackEndMoura\POO\PilaresPoo\Encapsulamento2\bin\Debug\net9.0\Encapsulamento2.pdb
+C:\Users\55473639879\Desktop\BackEndMoura\POO\PilaresPoo\Encapsulamento2\obj\Debug\net9.0\Encapsulamento2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55473639879\Desktop\BackEndMoura\POO\PilaresPoo\Encapsulamento2\obj\Debug\net9.0\Encapsulamento2.AssemblyInfoInputs.cache
+C:\Users\55473639879\Desktop\BackEndMoura\POO\PilaresPoo\Encapsulamento2\obj\Debug\net9.0\Encapsulamento2.AssemblyInfo.cs
+C:\Users\55473639879\Desktop\BackEndMoura\POO\PilaresPoo\Encapsulamento2\obj\Debug\net9.0\Encapsulamento2.csproj.CoreCompileInputs.cache
+C:\Users\55473639879\Desktop\BackEndMoura\POO\PilaresPoo\Encapsulamento2\obj\Debug\net9.0\Encapsulamento2.sourcelink.json
+C:\Users\55473639879\Desktop\BackEndMoura\POO\PilaresPoo\Encapsulamento2\obj\Debug\net9.0\Encapsulamento2.dll
+C:\Users\55473639879\Desktop\BackEndMoura\POO\PilaresPoo\Encapsulamento2\obj\Debug\net9.0\refint\Encapsulamento2.dll
+C:\Users\55473639879\Desktop\BackEndMoura\POO\PilaresPoo\Encapsulamento2\obj\Debug\net9.0\Encapsulamento2.pdb
+C:\Users\55473639879\Desktop\BackEndMoura\POO\PilaresPoo\Encapsulamento2\obj\Debug\net9.0\Encapsulamento2.genruntimeconfig.cache
+C:\Users\55473639879\Desktop\BackEndMoura\POO\PilaresPoo\Encapsulamento2\obj\Debug\net9.0\ref\Encapsulamento2.dll
