@@ -1,4 +1,5 @@
-﻿using Exercicio02;
+﻿using System.Runtime.InteropServices;
+using Exercicio02;
 
 // List<Fatura> listaFaturas = new List<Fatura>();
 // List<Relatorio> listaRelatorio = new List<Relatorio>();
@@ -96,13 +97,29 @@ void CadastrarFaturas()
 
 void CadastrarContratos()
 {
-
+    Console.WriteLine($"Informe o nome para o contrato");
+    string Nome = Console.ReadLine();
+    Console.WriteLine($"Qual o textoda cláusula do contrato?");
+    string texto = Console.ReadLine();
+    Contrato contrato = new Contrato();
+    contrato.Nome = Nome;
+    contrato.TextoClausulas = texto;
+    documentos.Add(contrato);
+    Console.WriteLine($"Contrato cadastrado com sucesso!");
 }
 
 void CadastrarRelatorios()
 {
-
-}
+   Console.WriteLine($"Digite o nome do responsavél");
+    string nome = Console.ReadLine();
+   Console.WriteLine($"Digite o texto de relatórios");
+    String texto = Console.ReadLine();
+    Relatorio relatorio = new Relatorio();
+    relatorio.NomeResponsavel = nome;
+    relatorio.TextoRelatorio = texto;
+    documentos.Add(relatorio);
+    Console.WriteLine($"Relatório cadastrado com sucesso!");
+    }
 
 void ListarFaturas()
 {
@@ -118,12 +135,25 @@ void ListarFaturas()
 }
 void ListarContratos()
 {
-
+ foreach (var item in documentos)
+ {
+    if (item is Contrato)
+    {
+            item.Imprimir();
+    }
+ }
 }
 
 void ListarRelatorios()
 {
-    
+    foreach (var item in documentos)
+    {
+       if (item is Relatorio)
+       {
+
+            item.Imprimir();
+       } 
+    }
 }
 
 
