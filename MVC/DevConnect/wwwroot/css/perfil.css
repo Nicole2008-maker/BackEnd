@@ -1,0 +1,144 @@
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.perfil-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.foto-perfil-destacada {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.perfil-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.username {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.perfil-detalhes {
+    display: flex;
+    gap: 25px;
+    font-size: var(--tamanho-fonte-sm);
+}
+
+.perfil-acoes {
+    font-size: var(--tamanho-fonte-sm);
+}
+
+.perfil-acoes > a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: var(--cor-roxa);
+}
+
+.titulo-publicacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: var(--tamanho-fonte-md);
+    text-transform: uppercase;
+    font-weight: bold;
+    width: fit-content;
+    margin: 30px auto 20px auto;
+    border-bottom: 1px solid var(--cor-cinza-escuro);
+    padding-bottom: 10px;
+}
+
+#publicacoes > h2 > a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-publi {
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto 25px auto;
+  padding: 20px;
+  background-color: white;
+  border: var(--borda);
+}
+
+@media (max-width: 768px) {
+    .perfil-conteiner {
+        gap: 25px;
+        padding: 20px;
+    }
+
+    .foto-perfil-destacada {
+        width: 100px;
+        height: 100px;
+    }
+
+    .perfil-detalhes {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .perfil-conteiner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .perfil-info {
+        align-items: center;
+    }
+
+    .perfil-detalhes {
+        justify-content: center;
+        font-size: 14px;
+        gap: 15px;
+    }
+
+    .username {
+        font-size: 18px;
+    }
+
+    .titulo-publicacoes {
+        font-size: 14px;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 360px) {
+    .foto-perfil-destacada {
+        width: 85px;
+        height: 85px;
+    }
+
+    .perfil-detalhes {
+        gap: 10px;
+        font-size: 12px;
+    }
+
+    .perfil-acoes {
+        font-size: 12px;
+    }
+
+    .card-publi {
+        width: 95%;
+        padding: 15px;
+    }
+}
+
+

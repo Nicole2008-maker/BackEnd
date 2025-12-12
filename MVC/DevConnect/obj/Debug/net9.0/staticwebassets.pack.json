@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\DevConnect.8jlx483ao7.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\55473639879\\Desktop\\BackEndMoura\\MVC\\DevConnect\\wwwroot\\css\\Cadastro.css",
+      "PackagePath": "staticwebassets\\css\\Cadastro.css"
+    },
+    {
+      "Id": "C:\\Users\\55473639879\\Desktop\\BackEndMoura\\MVC\\DevConnect\\wwwroot\\css\\Feed.css",
+      "PackagePath": "staticwebassets\\css\\Feed.css"
+    },
+    {
       "Id": "C:\\Users\\55473639879\\Desktop\\BackEndMoura\\MVC\\DevConnect\\wwwroot\\css\\Login.css",
       "PackagePath": "staticwebassets\\css\\Login.css"
     },
@@ -23,6 +31,10 @@
     {
       "Id": "C:\\Users\\55473639879\\Desktop\\BackEndMoura\\MVC\\DevConnect\\wwwroot\\css\\global.css",
       "PackagePath": "staticwebassets\\css\\global.css"
+    },
+    {
+      "Id": "C:\\Users\\55473639879\\Desktop\\BackEndMoura\\MVC\\DevConnect\\wwwroot\\css\\perfil.css",
+      "PackagePath": "staticwebassets\\css\\perfil.css"
     },
     {
       "Id": "C:\\Users\\55473639879\\Desktop\\BackEndMoura\\MVC\\DevConnect\\wwwroot\\css\\site.css",

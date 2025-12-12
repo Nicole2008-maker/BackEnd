@@ -96,3 +96,4 @@ C:\Users\55473639879\Desktop\BackEndMoura\MVC\CrudMoura\obj\Debug\net9.0\refint\
 C:\Users\55473639879\Desktop\BackEndMoura\MVC\CrudMoura\obj\Debug\net9.0\CrudMoura.pdb
 C:\Users\55473639879\Desktop\BackEndMoura\MVC\CrudMoura\obj\Debug\net9.0\CrudMoura.genruntimeconfig.cache
 C:\Users\55473639879\Desktop\BackEndMoura\MVC\CrudMoura\obj\Debug\net9.0\ref\CrudMoura.dll
+C:\Users\55473639879\Desktop\BackEndMoura\MVC\CrudMoura\obj\Debug\net9.0\CrudMoura.csproj.AssemblyReference.cache

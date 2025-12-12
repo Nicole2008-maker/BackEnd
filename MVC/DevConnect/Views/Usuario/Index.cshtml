@@ -1,0 +1,64 @@
+@model DevConnect.Models.TbUsuario
+
+<link rel="stylesheet" href="~/css/cadastro.css">
+
+<script defer>
+    let usuarioNovoCadastro = "@ViewBag.UsuarioNovoCadastrado"
+
+    if (usuarioNovoCadastro == "Nao cadastrado") {
+        alert("Que pena😫! Não foi possivel cadastrar esse usuario! Fale com um de nossos administradores ");
+    }
+</script>
+
+
+
+<h1>Tela principal login - DevConnect</h1>
+<main>
+    <div>
+
+        <form class="estilo-formulario" asp-action="Index" asp-controller="Usuario" enctype="multipart/form-data">
+
+
+            <img src="~/images/DevConnect.svg" width="230" height="100 alt=" Logo DevConnect>
+
+            <div class="formulario-campos">
+                <label for="">Cadastre-se para a comunidade exclusiva de desenvolvedores(as)</label>
+            </div>
+
+            <div class="formulario-campos">
+                <input class="orm_campos_input" type="text" placeholder="  Nome e sobrenome" asp-for="NomeCompleto" />
+            </div>
+
+            <div class="formulario-campos">
+                <input class="orm_campos_input" type="text" placeholder=" Nome de usuário" asp-for="NomeUsuario" />
+            </div>
+
+            <div class="formulario-campos">
+                <input class="orm_campos_input" type="text" placeholder=" E-mail" asp-for="Email" />
+                
+            </div>
+
+            <div class="formulario-campos">
+                <input class="orm_campos_input" type="password" placeholder=" Senha" id="Campo senha completa"
+                    asp-for="Senha">
+
+            </div>
+
+            <div class="formulario-campos">
+                <label id="labell" for="campo-file">Faça o upload da sua imagem aqui...</label>
+                <input type="file" id="campo-file" name="Imagem" />
+
+            </div>
+            <button type="submit" class="formulario-botao-azul">Cadastre-se</button>
+
+            <div class="formulario-campos">
+                <label for=""> Ao se cadastrar, você concorda com nossos Termos, Política de Dados e Política de
+                    Cookies.</label>
+            </div>
+
+        </form>
+        <section id="secao-cadastro" class="estilo-formulario">
+            <p>Tem uma conta? <a href="#">Conecte-se</a></p>
+        </section>
+    </div>
+</main>
